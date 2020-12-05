@@ -25,6 +25,7 @@ public class Main {
 		cars.stream().sorted( new CarYearComparator()).forEach(car->{
 			System.out.println(car.getName() + " " + car.getYear());
 		});
+
 //		System.out.println("Самое старое авто: " + cars.get(0).getName());
 //		int anzahl = cars.size();
 //		int nou = anzahl - 1;
