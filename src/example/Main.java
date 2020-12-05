@@ -26,11 +26,11 @@ public class Main {
 			System.out.println(car.getName() + " " + car.getYear());
 		});
 
-//		System.out.println("Самое старое авто: " + cars.get(0).getName());
-//		int anzahl = cars.size();
-//		int nou = anzahl - 1;
-//		System.out.println("Самое новое авто: " + cars.get(nou).getName());
-//		System.out.println("численость автопарка: " + anzahl);
+		System.out.println("Самое старое авто: " + cars.get(0).getName());
+		int anzahl = cars.size();
+		int nou = anzahl - 1;
+		System.out.println("Самое новое авто: " + cars.get(nou).getName());
+		System.out.println("численость автопарка: " + anzahl);
 
 
 	}
